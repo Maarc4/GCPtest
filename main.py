@@ -16,10 +16,10 @@ def name(value):
     """Return a friendly HTTP greeting."""
     return jsonify(value)
 
-@app.route('/chang')
-def chang():
+@app.route('/guille')
+def guille():
     """Return a friendly HTTP greeting."""
-    return "hola chang soy el deployment con lectura de push en main automatico"
+    return "guille menjam la tita"
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
