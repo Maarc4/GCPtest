@@ -16,6 +16,11 @@ def name(value):
     """Return a friendly HTTP greeting."""
     return jsonify(value)
 
+@app.route('/chang')
+def chang():
+    """Return a friendly HTTP greeting."""
+    return "hola chang soy el deployment con lectura de push en main automatico"
+
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
     # Engine, a webserver process such as Gunicorn will serve the app. You
